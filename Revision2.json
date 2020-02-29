@@ -1,0 +1,201 @@
+{
+	"_meta": {
+		"sources": [{
+			"json": "HBMOD",
+			"abbreviation": "HBMOD",
+			"full": "Mark of the Unknown",
+			"authors": [
+				"snack"
+			],
+			"convertedBy": [
+				"god himself"
+			],
+			"version": "1.0",
+			"url": "https://www.dmsguild.com/product/270012/Morgrave-Miscellany",
+			"targetSchema": "1.0.0"
+		}],
+		"dateAdded": 1572295517,
+		"dateLastModified": 1572295517
+	},
+	"subrace": [{
+		"race": {
+			"name": "Half-Elf (Base)",
+			"source": "PHB"
+		},
+		"name": "Mark of the Unknown",
+		"source": "HBMOD",
+		"ability": [{
+			"cha": 1
+		}],
+		"entries": [{
+				"name": "Death's Favor",
+				"entries": [
+					"When you make a Charisma ability check to interact with the dead or undead, you can roll one Intuition die, a d4, and add the number rolled to the ability check."
+				],
+				"type": "entries"
+			},
+			{
+					"type": "entries",
+				"name": "Unliving Bond",
+				"entries": [
+					"As an action, you establish a telepathic link with one undead creature you touch that isn’t hostile toward you. For the next 10 minutes, the link is active while you and the creature are within line of sight of each other. Through the link, the undead creature can understand your telepathic messages to it, and it can telepathically communicate simple emotions and concepts back to you. While the link is active, the undead creature gains advantage on attack rolls against any creature within 5 feet of you that you can see."
+				]
+			},
+						{
+					"type": "entries",
+				"name": "Merciful Mistress",
+				"entries": [
+					"You know the {@spell spare the dying} cantrip. Starting at 3rd level, you can cast the {@spell gentle repose} spell once with this trait, and you regain the ability to cast it when you have finished a long rest. Constitution is your spell casting ability for this."
+				]
+			},
+			{
+				"type": "entries",
+				"name": "Spells of the Mark",
+				"entries": [
+					"If you have the Spellcasting or the Pact Magic class feature, the spells on the Mark of the Unknown Spells table are added to the spell list of your spellcasting class.",
+					{
+						"type": "table",
+						"caption": "Mark of Unknown Spells",
+						"colLabels": [
+							"Spell Level",
+							"Spells"
+						],
+						"colStyles": [
+							"col-2 text-center",
+							"col-10"
+						],
+						"rows": [
+							[
+								"1st",
+								"{@spell false life}, {@spell cause fear}"
+							],
+							[
+								"2nd",
+								"{@spell gentle repose}, {@spell ray of enfeeblement}"
+							],
+							[
+								"3rd",
+								"{@spell animate dead}, {@spell speak with dead}"
+							],
+							[
+								"4th",
+								"{@spell shadow of moil}, {@spell blight}"
+							],
+							[
+								"5th",
+								"{@spell danse macabre}"
+							]
+						]
+					}
+				]
+			}
+		],
+		"traitTags": [
+			"Damage Resistance",
+			"Spellcasting",
+			"Uncommon Race"
+		],
+		"fluff": {
+			"entries": [
+				"Walking in two worlds but truly belonging to neither, half-elves combine what some say are the best qualities of their elf and human parents: human curiosity, inventiveness, and ambition tempered by the refined senses, love of nature, and artistic tastes of the elves. Some half-elves live among humans, set apart by their emotional and physical differences, watching friends and loved ones age while time barely touches them. Others live with the elves, growing to adulthood while their peers continue to live as children, growing restless in the timeless elven realms. Many half-elves, unable to fit into either society, choose lives of solitary wandering or join with other misfits and outcasts in the adventuring life.",
+				{
+					"type": "entries",
+					"name": "Of Two Worlds.",
+					"entries": [
+						"To humans, half-elves look like elves, and to elves, they look human. In height, they're on par with both parents, though they're neither as slender as elves nor as broad as humans. They range from under 5 feet to about 6 feet tall, and from 100 to 180 pounds, with men only slightly taller and heavier than women. Half-elf men do have facial hair, and sometimes grow beards to mask their elven ancestry. Half-elven coloration and features lie, somewhere between their human and elf parents, and thus show a variety even more pronounced than that found among either race. They tend to have the eyes of their elven parents."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Diplomats or Wanderers",
+					"entries": [
+						"Half-elves have no lands of their own, though they are welcome in human cities and somewhat less welcome in elven forests. In large cities in regions where elves and humans interact often, half-elves are sometimes numerous enough to form small communities of their own. They enjoy the company of other half-elves, the only people who truly understand what it is to live between these two worlds. In most parts of the world, though, half-elves are uncommon enough that one might live for years without meeting another. Some prefer to avoid company altogether, wandering the wilds as foresters, hunters, or adventurers and visiting civilization only rarely. Like elves, they are driven by the wanderlust that comes of their longevity. Others, in contrast, throw themselves into the thick of society, putting their charisma and social skills to great use in diplomatic roles or as swindlers."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Hidden Woodland and Realms",
+					"entries": [
+						"Most elves dwell in small forest villages hidden among the trees. Elves hunt game, gather food, and grow vegetables, and their skill and magic allow them to support themselves without the need for clearing and plowing land. They are talented artisans, crafting finely worked clothes and art objects. Their contact with outsiders is usually limited, though a few elves make a good living by trading crafted items for metals (which they have no interest in mining).",
+						"Elves encountered outside their own lands are commonly traveling minstrels, artists, or sages. Human nobles compete for the services of elf instructors to teach swordplay or magic to their children."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Haughty but Gracious",
+					"entries": [
+						"Although they can be haughty, elves are generally gracious - even to those who fall short of their high expectations - which is most non-elves. Still, they can find good in just about anyone.",
+						{
+							"type": "entries",
+							"name": "Dwarves",
+							"entries": [
+								"\"Dwarves are dull, clumsy oafs. But what they lack in humor, sophistication, and manners, they make up in valor. And I must admit, their best smiths produce art that approaches elven quality.\""
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Halflings",
+							"entries": [
+								"\"Halflings are people of simple pleasures, and that is not a quality to scorn. They're a good folk, they care for each other and tend their gardens, and they have proven themselves tougher than they seem when the need arises.\""
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Humans",
+							"entries": [
+								"\"All that haste, their ambitions and drive to accomplish something before their brief lives pass away - human endeavors seem so futile sometimes. But then you look at what they have accomplished, and you have to appreciate their achievements. If only they could slow down and learn some refinement.\""
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Exploration and Adventure",
+					"entries": [
+						"Elves take up adventuring out of wanderlust. Since they are so long-lived, they can enjoy centuries of exploration and discovery. They dislike the pace of human society, which is regimented from day to day but constantly changing over decades, so they find careers that let them travel freely and set their own pace. Elves also enjoy exercising their martial prowess or gaining greater magical power, and adventuring allows them to do so. Some might join with rebels fighting against oppression, and others might become champions of moral causes."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Elf Names",
+					"entries": [
+						"Elves are considered children until they declare themselves adults, some time after the hundredth birthday, and before this period they are called by child names.",
+						"On declaring adulthood, an elf selects an adult name, although those who knew him or her as a youngster might continue to use the child name. Each elf's adult name is a unique creation, though it might reflect the names of respected individuals or other family members. Little distinction exists between male names and female names; the groupings here reflect only general tendencies. In addition, every elf bears a family name, typically a combination of other Elvish words. Some elves traveling among humans translate their family names into Common, but others retain the Elvish version.",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [{
+									"type": "item",
+									"name": "Child Names:",
+									"entry": "Ara, Bryn, Del, Eryn, Faen, Innil, Lael, Mella, Naill, Naeris, Phann, Rael, Rinn, Sai, Syllin, Thia, Vall"
+								},
+								{
+									"type": "item",
+									"name": "Male Adult Names:",
+									"entry": "Adran, Aelar, Aramil, Arannis, Aust, Beiro, Berrian, Carric, Enialis, Erdan, Erevan, Galinndan, Hadarai, Heian, Himo, Immeral, Ivellios, Laucian, Mindartis, Paelias, Peren, Quarion, Riardon, Rolen, Soveliss, Thamior, Tharivol, Theren, Varis"
+								},
+								{
+									"type": "item",
+									"name": "Female Adult Names:",
+									"entry": "Adrie, Althaea, Anastrianna, Andraste, Antinua, Bethrynna, Birel, Caelynn, Drusilia, Enna, Felosial, Ielenia, Jelenneth, Keyleth, Leshanna, Lia, Meriele, Mialee, Naivara, Quelenna, Quillathe, Sariel, Shanairra, Shava, Silaqui, Theirastra, Thia, Vadania, Valanthe, Xanaphia"
+								},
+								{
+									"type": "item",
+									"name": "Family Names (Common Translations):",
+									"entry": "Amakiir (Gemflower), Amastacia (Starflower), Galanodel (Moonwhisper), Holimion (Diamonddew), Ilphelkiir (Gemblossom), Liadon (Silverfrond), Meliamne (Oakenheel), Nailo (Nightbreeze), Siannodel (Moonbrook), Xiloscient (Goldpetal)"
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [{
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "https://i.imgur.com/RcarOY2.png"
+				}
+			}]
+		}
+	}]
+}
